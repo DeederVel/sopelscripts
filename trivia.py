@@ -197,7 +197,7 @@ def savePoints(bot, trigger):
 	#Saving the match chart
 	############################
 	userPointsList = sorted(userPoints.items(),key=lambda x: (x[1]['n']),reverse=True)
-	quizSerata = resultsPath+"quiz"+time.strftime("%Y-%m-%d")+".csv"
+	quizSerata = resultsPath+"quiz"+time.strftime("%Y-%m-%d@%H%M%S")+".csv"
 	qs = open(quizSerata,"w")
 	qs.write(STR_CSV_HEAD+"\n")
 	for item in userPointsList:
