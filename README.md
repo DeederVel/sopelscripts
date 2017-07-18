@@ -1,6 +1,6 @@
-#DeederVel Sopel script Collection™#
+# DeederVel Sopel script Collection™ #
 
-###Trivia.py###
+### Trivia.py ###
 Just a simple trivia script for your Sopel IRC Bot
 
 Questions file must be written with this format, one question per line:  
